@@ -1,0 +1,8 @@
+<WCH v="2">
+  <item n="_rs485_TX_DATA" r="1" s="False" e="False" i="775"/>
+  <item n="_j1_analog" r="0" s="True" e="False" i="808"/>
+  <item n="_j2_analog" r="0" s="True" e="False" i="809"/>
+  <item n="_j3_analog" r="0" s="True" e="False" i="810"/>
+  <item n="_j4_analog" r="0" s="True" e="False" i="811"/>
+  <item n="_j5_analog" r="0" s="True" e="False" i="812"/>
+</WCH>

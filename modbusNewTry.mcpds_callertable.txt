@@ -1,0 +1,30 @@
+main
+	rs485Init
+		UART2_Init
+			Get_Fosc_kHz
+			Get_Fosc_Per_Cyc
+			Delay_100ms
+			_Multiply_32x32
+			_Modulus_32x32
+			_Divide_32x32
+		UART_Set_Active
+	giris_port_coklayici
+		clock165
+			Delay_Cyc_Long
+		Delay_Cyc_Long
+	cikis_port_coklayici
+		clock595
+			Delay_Cyc_Long
+		Delay_Cyc_Long
+	joystick_init
+		ADC1_Init
+	butonBilgi
+		giris_port_coklayici
+		abs
+		ADC1_Get_Sample
+	rs485DataGonder
+		fnxChecksum
+		risingEdgeFnx
+		UART2TX
+			UART2_Write
+Timer1Interrupt
